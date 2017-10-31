@@ -62,8 +62,6 @@ class BinaryNetConv2D(Convolution2D):
         # super(BinaryNetConv2D, self).build(input_shape)  # Be sure to call this somewhere!
         super().build(input_shape)  # Be sure to call this somewhere!
 
-        print('Use bias is: %d' % self.use_bias)
-
         # Get the initialised weights as save as the 'full precision' weights
         weights = K.get_value(self.weights[0])
         self.fullPrecisionWeights = weights.copy()
