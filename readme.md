@@ -8,3 +8,5 @@ This project contains Keras implementations of the BinaryNet and XNORNet papers:
 Code supports the Tensorflow and Theano backends.
 
 The most difficult part of coding these implementations was the sign function gradient.  I’ve used the clipped ‘passthrough’ sign implementation detailed in the BinaryNet paper.  The XNORNet doesn’t mention anything, so I’ve used the same implementation here too.
+
+NOTE: This code is Python 3 compatible only!
